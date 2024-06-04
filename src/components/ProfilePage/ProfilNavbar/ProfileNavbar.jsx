@@ -55,7 +55,7 @@ function ProfileNavbar() {
             <div className={style.Main}>
                 <div className={style.navbar}>
                     <div className={style.brand} onClick={HomePage}>
-                        <h1>Code<span>Box</span></h1>
+                        <h1>Mini<span>Dev</span></h1>
                     </div>
                     <div className={style.searchparent}>
                         <div className={style.search}>
