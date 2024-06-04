@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main {
+    /* height: 100vh; */
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 10px 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.Header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0px;
+
+}
+
+.DropdDown {
+    width: 22%;
+    height: 100%;
+    border: 1px solid var(--grayColor);
+
+}
+
+.CoursData {
+    width: 76%;
+    height: 100%;
+    padding: 5px;
+    border: 1px solid var(--grayColor);
+    border-radius: 5px;
+}
+
+.LangDrop {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: #000000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    --webkit-touch-callout: none;
+    --webkit-user-select: none;
+    --khtml-user-select: none;
+    --moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.LangDrop span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 5px;
+    transition: .8s;
+}
+
+.DropTextOpen {
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--primaryColor);
+    margin: 0px auto;
+    cursor: pointer;
+    transition: .9s;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.DropTextClose {
+    width: 100%;
+    height: 600px;
+    border: 1px solid white;
+    margin: 0px auto;
+    transition: .9s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.PragramLang {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.PragramLang a:nth-child(1) {
+    margin-top: 20px;
+}
+
+.PragramLang a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: start;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.PragramLang a:hover,
+.PragramLang a:focus {
+    border-bottom: 1px solid #086F6C;
+    color: #086F6C;
+}
+
+.SubjectLanguage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.SubjectLanguage a:nth-child(1) {
+    margin-top: 20px;
+}
+
+.SubjectLanguage a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: start;
+    color: #000000;
+
+}
+
+.SubjectLanguage a:hover {
+    border-bottom: 1px solid #086F6C;
+    color: #086F6C;
+}
+
+.SubJecDrop {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: #000000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    --webkit-touch-callout: none;
+    --webkit-user-select: none;
+    --khtml-user-select: none;
+    --moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.SubJecDrop span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 5px;
+    transition: .8s;
+}
+
+.SubjectOpen {
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--primaryColor);
+    margin: 20px auto;
+    cursor: pointer;
+    transition: .9s;
+    overflow: hidden;
+}
+
+.SubjectClose {
+    width: 100%;
+    height: 600px;
+    margin: 20px auto;
+    transition: .9s;
+    border: 1px solid white;
+
+    cursor: pointer;
+    overflow: hidden;
+}

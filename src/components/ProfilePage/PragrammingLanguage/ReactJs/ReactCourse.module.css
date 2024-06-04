@@ -1,0 +1,464 @@
+.Container {
+    width: 100%;
+    height: 100%;
+}
+
+.InfoLink {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 40px 0px;
+}
+
+.Info {
+    width: 70%;
+    height: 100%;
+    line-height: 0px;
+}
+
+.Info p:nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 28px;
+    text-align: start;
+    color: #000000;
+}
+
+.Info p:nth-child(2) {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.Link {
+    width: 250px;
+    border: 1px solid #D9D9D9;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Link p:nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+.CourseInfo {
+
+    margin: 40px 0px;
+}
+
+.CourseGroup {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.TextInfo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.Coursetext {
+    width: 70%;
+    border: 1px solid #D9D9D9;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ForImg {
+    height: 100%;
+    width: 130px;
+    background-color: var(--primaryColor);
+    color: var(--yellowColor);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.ForText {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.CoursePrice {
+    width: 100%;
+
+
+}
+
+.CoursePrice p span {
+    padding: 3px 5px;
+    background-color: var(--yellowColor);
+    color: white;
+    border-radius: 5px;
+}
+
+.CoursePrice p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Lessonscount {
+    width: 100%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+
+.LessonText {
+    width: 100%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.CourseLink {
+    width: 250px;
+    border: 1px solid #D9D9D9;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.CourseLink p:nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.CourseLink p:nth-child(2) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+
+}
+
+.CourseLink p:nth-child(3) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #c4c4c4;
+    text-decoration: italic;
+
+}
+
+.CourseCards {
+    width: 100%;
+    height: 100%;
+    margin: 40px 0px;
+
+}
+
+.Filtergroup {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.CardGroup {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.Text1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.Test1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.FilterPrice {
+    width: 280px;
+    height: 40px;
+    border: 1px solid var(--primaryColor);
+    margin-right: 20px;
+    /* overflow: hidden; */
+    transition: 1s;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.FilterPrice p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.FilterPrice p span {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+.FilterOpen {
+    width: 280px;
+    height: 0px;
+    margin-top: 20px;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+    position: relative;
+    z-index: 99;
+}
+
+.FilterClose {
+    margin-top: 20px;
+    height: fit-content;
+    padding: 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    background-color: var(--grayColor);
+    transition: 0.5s;
+    position: relative;
+    z-index: 99;
+}
+
+.FilterLevel {
+    width: 280px;
+    height: 40px;
+    border: 1px solid var(--primaryColor);
+    margin: 0px 20px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.FilterLevel p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.FilterLevel p span {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: .5s;
+}
+.CardGroup{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.Cards {
+    width: 280px;
+    height: 200px;
+    border: 1px solid var(--primaryColor);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: white;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.Cards:hover {
+    background-color: var(--primaryColor);
+}
+
+.Cards:hover .card1 p,
+.Cards:hover .card2,
+.Cards:hover .card3 div:nth-child(2),
+.Cards:hover .card4 {
+    color: white;
+}
+
+.Cards:hover .card1 p span {
+    color: var(--primaryColor);
+}
+
+.Cards:hover .card3 div:nth-child(1) p {
+    background-color: var(--yellowColor);
+}
+
+.Cards:hover .card2 {
+    border: 1px solid var(--yellowColor);
+}
+
+.card1 {
+    width: 100%;
+}
+
+.card2 {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border: 1px solid var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card3 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card3 div:nth-child(1) {
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-start;
+
+
+}
+
+.card3 div:nth-child(1) p {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 5px 0px 5px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+}
+
+.card3 div:nth-child(2) {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #000000;
+}
+
+.card4 {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #000000;
+}
+
+.card4 span {
+    font-weight: 600;
+    margin: 0px 5px;
+
+}
+
+.card1 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.card1 p span {
+    padding: 3px 5px;
+    background-color: var(--yellowColor);
+    color: white;
+    border-radius: 5px;
+
+}

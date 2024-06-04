@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body::-webkit-scrollbar {
+    width: 10px;
+  
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    height: 100px;
+    color: var(--primaryColor);
+    width: 10px;
+  }
+  :root {
+    --primaryColor: #086F6C;
+    --yellowColor: #FFAD0F;
+    --brownColor: #F26440;
+    --grayColor: #F7F8F1;
+    --fontFamily: 'Monserrat';
+  }
+  
+  .nocopy {
+    --webkit-touch-callout: none;
+    --webkit-user-select: none;
+    --khtml-user-select: none;
+    --moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  
+  .mdSize {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #0D263B;
+  }
+  
+  .smSize {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0D263B;
+  }
+  
+  
+  
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Monserrant";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    color: #ffffff;
+    padding: 0 130px;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brand {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.brand h1 {
+    font-family: 'Montserrat';
+    font-style: 'normal';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #086F6C;
+}
+
+.brand h1 span {
+    color: #FFAD0F;
+}
+
+.search {
+    width: 500px;
+    border: 1px solid #D9D9D9;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search form {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    overflow: hidden;
+}
+
+.search input {
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #086F6C;
+
+}
+
+.search input:focus,
+.search input:active {
+    background-color: white;
+}
+
+.search input::placeholder {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #086F6C;
+}
+
+.search button {
+    font-size: 24px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.DropDownOpen {
+    width: 150px;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: .3s;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+}
+
+.DropDownOpen p a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    cursor: pointer;
+}
+.DropDownClose p a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    cursor: pointer;
+}
+.DropDownOpen p a:hover{
+    color: #086F6C;
+}
+.DropDownOpen p:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 3px;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.DropDownClose {
+    width: 150px;
+    background-color: white;
+    height: 0px;
+    transition: .3s;
+    position: absolute;
+    top: 70px;
+    overflow: hidden;
+    right: 70px;
+
+}
+
+.MenuIcons {
+    cursor: pointer;
+}
+
+.navs {
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.notification span {
+    width: 15px;
+    height: 15px;
+    background-color: #FFAD0F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    position: absolute;
+    right: -8px;
+    top: -7px;
+}
+
+.profil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* margin-right: 36px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #D9D9D9;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.userText {
+    margin: 0px 25px 0px 10px;
+    line-height: -0px;
+
+}
+
+.userText p:nth-child(1) {
+    align-self: center;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    line-height: 20px;
+}
+
+.userText p:nth-child(2) {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #8692a6;
+    text-align: start;
+}
+
+.dropdown p {
+    text-align: end;
+
+}
+
+.childNavbar {
+    width: 100%;
+    height: 64px;
+
+}
+
+.childNavbar ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.childNavbar ul li {
+    width: 16, 5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.childNavbar ul li a {
+    height: 100%;
+    width: 100%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+
+}
+
+.childNavbar ul li a:hover,
+.childNavbar ul li a:focus {
+    color: var(--primaryColor);
+}

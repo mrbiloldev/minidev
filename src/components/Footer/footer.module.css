@@ -1,0 +1,107 @@
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    font-family: "Monserrant";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    color: #ffffff;
+    padding: 0 130px;
+    background-color: #086F6C;
+}
+.brand{
+    width: 15%;
+}
+.brand a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.brand a span {
+    color: #FFAD0F;
+}
+.text{
+    width: 40%;
+}
+.text ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.text ul li {
+    color: white;
+    font-family: "Monserrant";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.Action{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.Action p {
+    color: #FFAD0F;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+}
+.Action .Icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.Action .Icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+@media (min-width: 1024px){
+    .Main{
+        height: 150px;
+    }
+}
+@media (max-width: 767px){
+    .Main{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .brand{
+        width: 100%;
+        text-align: center;
+    }
+    .text {
+        width: 100%;
+    }
+    .text ul{
+        text-align: center;
+    }
+    .Action{
+        width: 100%;
+    }
+}
